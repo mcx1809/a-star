@@ -2,7 +2,9 @@ cmake_minimum_required(VERSION 3.5)
 
 project(a-star-test)
 
-find_package(Boost 1.71)
+set(CMAKE_CXX_STANDARD 14)
+
+find_package(Boost 1.58)
 add_library(boost INTERFACE)
 target_include_directories(boost INTERFACE ${Boost_INCLUDE_DIRS})
 target_link_libraries(boost INTERFACE ${Boost_LIBRARIES})
