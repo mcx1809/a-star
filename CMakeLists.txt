@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(test)
+project(a-star-test)
 
 find_package(Boost 1.71)
 add_library(boost INTERFACE)
